@@ -63,7 +63,7 @@ const nuberg = () => {
   return (numprod.innerHTML = `N DE FACTURE: ${sec}`);
 };
 nuberg();
-const url = "/OmerLInks|creation/prduit.json";
+const url = "https://github.com/like2300/ARVIE-DU-CIEL/blob/main/prduit.json";
 fetch(url)
   .then((reponse) => reponse.json())
   .then((data) => {
