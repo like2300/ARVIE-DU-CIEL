@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link
+      rel="shortcut icon"
+      href="/img/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+  </head>
+  <body>
+    <div id="laoder">
+      <img
+        class="loade-img"
+        src="/img/logo.png"
+        alt="logo"
+      />
+    </div>
+
+    <div class="data">
+      <div class="container">
+        <div class="img">
+          <img src="/img/logo.png" alt="logo" />
+        </div>
+        <div class="form">
+          <form>
+            <div>
+              <div class="input">
+                <h1>identite</h1>
+                <input type="text" required placeholder="exemple ELENGA Omer" />
+              </div>
+              <button class="send">envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="ticket-sect">
+      <h1>produit</h1>
+      <select name="" id="secte">
+        <option value="">choisir</option>
+      </select>
+      <button class="send send2">envoyer</button>
+      <span id="prix"></span>
+    </div>
+
+    <div class="pdf">
+      <div class="box-pdf">
+        <div class="cont-receipt">
+          <div class="logo-receipt">
+            <img
+              class="img-fact"
+              src="/img/logo.png"
+              alt=""
+            />
+          </div>
+          <div class="receipt-title">
+            <h1>FACTURE</h1>
+            <p class="date"></p>
+            <p class="numprod"></p>
+          </div>
+        </div>
+        <div class="name-div">
+          <span>identite: <span class="name"></span></span>
+        </div>
+        <table>
+          <tr>
+            <th>Article</th>
+            <th>Quantité</th>
+            <th>Prix</th>
+            <th>Avance</th>
+          </tr>
+          <tr>
+            <td>Article 1</td>
+            <td>10</td>
+            <td>25.99</td>
+            <td>5.00</td>
+          </tr>
+          <tr>
+            <td>Article 2</td>
+            <td>5</td>
+            <td>12.50</td>
+            <td>2.50</td>
+          </tr>
+          <tr>
+            <td>Article 3</td>
+            <td>2</td>
+            <td>8.75</td>
+            <td>1.25</td>
+          </tr>
+        </table>
+
+        <div class="cont-total">
+          <div class="total">
+            <img id="qrcode" src="" alt="qrcode" />
+            <div class="box-total">
+              <span id="payeer"></span>
+              <span id="avance"></span>
+              <span id="reste"></span>
+              <h1>MERCI !</h1>
+            </div>
+          </div>
+          <div class="num">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
